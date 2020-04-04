@@ -35,3 +35,13 @@ I created the following students:
 - Daniel Cohen with ID 3
 
 After each student was created I immediately set their name. I then output the students' names and IDs in the order they were created.
+
+The results:
+- Students Jamie and Felipe printed their names and IDs as expected
+- Students Rehan and Daniel both printed the name Daniel
+
+The fact that Rehan and Daniel both had the same name after student Daniel was created is as expected. Daniel was created after Rehan but with the same ID, so the call to getStudent returned the instance Rehan. 
+
+### Notes
+
+In my project, any number of students could have been created, as long as each estudent had a unique ID. However, I could easily have adjusted the getStudent function to only return a student if the ID was within a certain range (returning null otherwise), thus limiting the number of students that could be instantiated.
