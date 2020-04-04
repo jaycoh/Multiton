@@ -45,3 +45,5 @@ The fact that Rehan and Daniel both had the same name after student Daniel was c
 ### Notes
 
 In my project, any number of students could have been created, as long as each estudent had a unique ID. However, I could easily have adjusted the getStudent function to only return a student if the ID was within a certain range (returning null otherwise), thus limiting the number of students that could be instantiated.
+
+Another common strategy when implementing Multiton is to map from some enumeration to the desired instances. That way, for an enum of n constants, there can only be as many as n instances.
