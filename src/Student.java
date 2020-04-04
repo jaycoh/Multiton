@@ -24,7 +24,7 @@ public class Student {
         return this.name;
     }
 
-    public String toPrint() {
+    public String toString() {
         return "name: " + this.name + "; id: " + this.id;
     }
 
