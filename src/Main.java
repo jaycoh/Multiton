@@ -18,6 +18,5 @@ public class Main {
         System.out.println(pipe.toPrint());
         System.out.println(rehan.toPrint());
         System.out.println(daniel.toPrint());
-
     }
 }
