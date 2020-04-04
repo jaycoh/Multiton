@@ -22,7 +22,16 @@ You can see my class contains:
 - A private Student() constructor.
 - A dictionary studentMappings to map ID numbers to Student instances.
 - A method getStudent that takes an ID number as a parameter. If that number doesn't exist in the existing keys of studentMappings, it is added. The method then returns the value that the ID number maps to in studentMappings.
+- A name field, along with appropriate getters and setters.
 
 
 ### Results
-### Notes
+(All my code described here is in Main.java)
+
+I created the following students:
+- Jamie Cohen with ID 1
+- Felipe Grosso with ID 2
+- Rehan Hafeez with ID 3
+- Daniel Cohen with ID 3
+
+After each student was created I immediately set their name. I then output the students' names and IDs in the order they were created.
