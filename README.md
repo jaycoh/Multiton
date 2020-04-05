@@ -1,8 +1,8 @@
 # Multiton
 ### Description
-Mulition is a design pattern closely related to the [Singleton design pattern](https://en.wikipedia.org/wiki/Singleton_pattern). Like Singleton, Multiton serves to limit the number of instances of a class. However, while Singleton only allows a single instance of a class, Multiton allows multiple, with each instance corresponding to a unique key.
+Multiton is a design pattern closely related to the [Singleton design pattern](https://en.wikipedia.org/wiki/Singleton_pattern). Like Singleton, Multiton serves to limit the number of instances of a class. However, while Singleton only allows a single instance of a class, Multiton allows multiple, with each instance corresponding to a unique key.
 
-A class modified to adhere to the Mulition pattern will have the following characteristics:
+A class modified to adhere to the Multiton pattern will have the following characteristics:
 - A private constructor, to ensure that no other class can access it.
 - A static dictionary field that maps keys to their corresponding instances.
 - A public static method get____, which takes in a key and outputs the corresponding instance.
